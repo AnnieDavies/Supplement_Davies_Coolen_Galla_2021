@@ -1,4 +1,4 @@
-R Codes to perform Data Analysis of Joint Models and Landmarking Models in Davies, Coolen and Galla (2021)
+# R Codes to perform Data Analysis of Joint Models and Landmarking Models in Davies, Coolen and Galla (2021)
 
 The folder DataAnalysis contains three R codes:
 1. AIDS_Split_Average.R 
