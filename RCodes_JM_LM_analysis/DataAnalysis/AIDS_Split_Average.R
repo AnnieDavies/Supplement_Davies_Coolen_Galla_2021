@@ -1,4 +1,5 @@
-# Code to perform data analysis on AIDS data set in Davies, Coolen and Galla (2021).
+# Code to perform data analysis on AIDS data set in Davies, Coolen and Galla (2021)
+# for joint models and landmarking models.
 # Written by A. Davies (2021),
 # aided by code by D. Rizopoulos: https://github.com/drizopoulos/jm_and_lm
 # Data set is split in half 20 times into a training and test data set.
