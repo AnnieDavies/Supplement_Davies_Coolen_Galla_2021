@@ -9,7 +9,8 @@
 # At each landmark (base) time a landmark model is fitted to the training data.
 # First we perform the fixed base time analysis with base time t = 6 months:
 # The prediction time u is varied in steps of 0.2 months from 6 to 18 months
-# Prediction error for each combination of t and u is stored at each iteration.
+# Prediction error calculated using the fitted model and test data 
+# for each combination of t and u is stored at each iteration.
 # Then we perform the fixed prediction window analysis for three windows:
 # w1=6 months, w2=9 months, w3=12 months
 # At w1 we use base times t=0,2,6,12 months
