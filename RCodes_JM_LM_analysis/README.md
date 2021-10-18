@@ -1,5 +1,6 @@
 # R Codes to perform Data Analysis of Joint Models and Landmarking Models in Davies, Coolen and Galla (2021)
 
+## DataAnalysis
 The folder DataAnalysis contains three R codes:
 1. AIDS_Split_Average.R 
 2. Liver_Split_Average.R
@@ -16,7 +17,7 @@ An average over the iterations (along with the retarded kernel results) was perf
 
 Details of the models fitted and the analysis performed is given in the manuscript 'Retarded kernels for longitudinal survival analysis and dynamic prediction', Davies, Coolen and Galla (2021). 
 
-
+## Edited_JMbayes_functions
 The folder Edited_JMbayes_functions contains the edited versions of the function prederrJM (from the JMbayes package) for coxph objects, JMbayes objects and mvJMbayes objects. 
 
 The original codes were copied from prederrJM.coxph.R, prederr.JMbayes.R and prederr.mvJMbayes.R at https://github.com/drizopoulos/JMbayes/tree/master/R.
