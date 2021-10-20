@@ -29,7 +29,16 @@ vector<double> read(string fn_base, string label, string model, string type, int
 	cout << "filename " << label + "/" + model + "_" + type + ".txt" << endl;
 	while (file >> val)
 	{
-		values[a] = stod(val);   //assigns to the array
+		 //we should only get NA for JM t=u (Tstart=Thoriz)
+		//i.e. JM, fixt, a=0
+		//we can treat this as 0. 
+		if(val == "NA"){
+			val = 0.0;
+			cout << "NA at a = " << a << endl; //to check we don't get NA anywhere else
+		}
+		else{
+			values[a] = stod(val);   
+		}
 		a++;
 	}
 	file.close();
