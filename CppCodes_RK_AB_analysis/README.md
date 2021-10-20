@@ -35,3 +35,5 @@ This folder also contains a pdf 'ModelB.pdf'. This contains detail about the Mod
 ## Average_Split.cpp
 
 A simple C++ code that reads in the vectors of prediction error for each model (fixed base time and fixed prediction window) at each iteration and averages over the iterations.
+
+We get NA for JM models when base time t = prediction time u (i.e. the first iteration of the fixed base time analysis). The code treats this as zero (all other models have PE=0 at this point). The code prints a warning when a value is NA so we can check that this doesn't occur anywhere else.
