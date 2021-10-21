@@ -1,6 +1,10 @@
 # Supplement_Davies_Coolen_Galla_2021
 
-Codes used to perform data analysis of the three data sets (AIDS, Liver, PBC) in 'Retarded kernels for longitudinal survival analysis and dynamic prediction' Davies, Coolen and Galla (2021). 
+Supplementary material and codes used to perform data analysis of the three data sets (AIDS, Liver, PBC) in 'Retarded kernels for longitudinal survival analysis and dynamic prediction' Davies, Coolen and Galla (2021). 
+
+## Supplement_RK.pdf
+
+Supplementary material containing technical appendices and additional results for the paper 'Retarded kernels for longitudinal survival analysis and dynamic prediction' Davies, Coolen and Galla (2021).  
 
 ## C++ Codes to perform Data Analysis for Retarded Kernel Models A and B
 
