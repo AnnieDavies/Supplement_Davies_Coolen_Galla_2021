@@ -2,7 +2,7 @@
 
 Supplementary material and codes used to perform data analysis of the three data sets (AIDS, Liver, PBC) in 'Retarded kernels for longitudinal survival analysis and dynamic prediction' Davies, Coolen and Galla (2021). 
 
-## Supplement_RK.pdf
+## RK_Supplement.pdf
 
 Supplementary material containing technical appendices and additional results for the paper 'Retarded kernels for longitudinal survival analysis and dynamic prediction' Davies, Coolen and Galla (2021).  
 
